@@ -1,0 +1,89 @@
+system running up!
+
+
+PC Xinu (CSC501 1-2009 base) #351 (hkshah5@bn20-217.dcs.mcnc.org) Mon Apr 23 16:16:38 EDT 2018
+
+8388608 bytes real mem
+101015 bytes Xinu code
+clock enabled
+
+
+Hello World, Xinu lives
+
+
+Test 2: Testing backing store operations
+49 first one to get bs 1
+TEST 2 i 1 and j 50
+before getbs BSM mapped or not 0
+before getbs BSM pid -1 currpid 48
+48 first one to get bs 1
+BSIZE 50
+before xmmap BSM mapped or not 2
+before xmmap BSM pid 48 currpid 48
+TEST valye of r 1
+BSM mapped or not 1
+BSM pid 48
+TEST 2 i 1 and j 20
+before getbs BSM mapped or not 1
+before getbs BSM pid 48 currpid 47
+BSIZE 50
+before xmmap BSM mapped or not 1
+before xmmap BSM pid 48 currpid 47
+TEST valye of r 1
+BSM mapped or not 1
+BSM pid 47
+test2 proc done 47
+TEST 2 i 1 and j 40
+before getbs BSM mapped or not 0
+before getbs BSM pid -1 currpid 46
+46 first one to get bs 1
+BSIZE 40
+2-4 FAILED 40.
+before xmmap BSM mapped or not 2
+before xmmap BSM pid 46 currpid 46
+TEST valye of r 1
+BSM mapped or not 1
+BSM pid 46
+test2 proc done 46
+TEST 2 i 1 and j 60
+before getbs BSM mapped or not 0
+before getbs BSM pid -1 currpid 45
+45 first one to get bs 1
+BSIZE 60
+2-4 FAILED 60.
+before xmmap BSM mapped or not 2
+before xmmap BSM pid 45 currpid 45
+TEST valye of r 1
+BSM mapped or not 1
+BSM pid 45
+2-6 FAILED.
+test2 proc done 45
+TEST 2 i 1 and j 80
+before getbs BSM mapped or not 0
+before getbs BSM pid -1 currpid 44
+44 first one to get bs 1
+BSIZE 80
+2-4 FAILED 80.
+before xmmap BSM mapped or not 2
+before xmmap BSM pid 44 currpid 44
+TEST valye of r 1
+BSM mapped or not 1
+BSM pid 44
+2-6 FAILED.
+test2 proc done 44
+TEST 2 i 1 and j 100
+before getbs BSM mapped or not 0
+before getbs BSM pid -1 currpid 43
+43 first one to get bs 1
+BSIZE 100
+2-4 FAILED 100.
+before xmmap BSM mapped or not 2
+before xmmap BSM pid 43 currpid 43
+TEST valye of r 1
+BSM mapped or not 1
+BSM pid 43
+2-6 FAILED.
+test2 proc done 43
+test2 proc done 48
+	FAILED!
+

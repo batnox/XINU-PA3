@@ -1,0 +1,1 @@
+/usr/bin/gcc -m32 -fno-builtin -c -g -Wall -O  -I../h ../paging/`basename bsm.o .o`.[c]

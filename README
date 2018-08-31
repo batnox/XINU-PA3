@@ -1,0 +1,3 @@
+I have implemented init_bsm, get_bsm, bsm_lookup, and bsm_map.
+bsm_map is buggy.
+Other functions (get_bs.c) were implemented before I modified functions in file bsm.c and will not comply with current data structure bsm_t and functions in bsm.c
